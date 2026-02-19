@@ -1,0 +1,116 @@
+tid,template
+90,restart.
+106,syslogd startup succeeded
+65,klogd startup succeeded
+64,"klogd <*>.<*>.<*>, log source = /proc/kmsg started."
+68,Linux version <*>.<*>.<*><*>.<*> (bhcompile@bugs.build.redhat.com) (gcc version <*>.<*>.<*> (Red Hat Linux <*>.<*>.<*><*>)) #<*> <*>:<*>:<*> EDT <*>
+22,BIOS-provided physical RAM map:
+21,BIOS-e820: <*> - <*> (usable)
+20,BIOS-e820: <*> - <*> (reserved)
+2,<*> HIGHMEM available.
+3,<*> LOWMEM available.
+118,zapping low mappings.
+76,On node <*> totalpages: <*>
+41,"DMA zone: <*> pages, LIFO batch:<*>"
+74,"Normal zone: <*> pages, LIFO batch:<*>"
+50,"HighMem zone: <*> pages, LIFO batch:<*>"
+42,DMI <*>.<*> present.
+4,ACPI disabled because your bios is from <*> and too old
+117,You can enable it with acpi=force
+24,Built <*> zonelists
+58,irqbalance startup succeeded
+62,Kernel command line: ro root=LABEL=/ rhgb quiet
+69,mapped 4G/4G trampoline to <*>.
+52,Initializing CPU#<*>
+85,portmap startup succeeded
+32,"CPU <*> irqstacks, hard=<*> soft=<*>"
+84,PID hash table entries: 512 (order <*>: <*> bytes)
+40,Detected <*>.<*> MHz processor.
+113,Using tsc for high-res timesource
+30,Console: colour VGA+ <*>
+70,"Memory: <*> available (<*> kernel code, <*> reserved, <*> data, <*> init, <*> highmem)"
+25,Calibrating delay loop... <*>.<*> BogoMIPS
+96,Security Scaffold v<*>.<*>.<*> initialized
+97,SELinux:  Initializing.
+99,SELinux:  Starting in permissive mode
+107,"There is already a security framework initialized, register_security failed."
+46,Failure registering capabilities with the kernel
+100,selinux_register_security:  Registering secondary module capability
+26,Capability LSM initialized
+39,"Dentry cache hash table entries: <*> (order: <*>, <*> bytes)"
+55,"Inode-cache hash table entries: <*> (order: <*>, <*> bytes)"
+71,"Mount-cache hash table entries: <*> (order: <*>, <*> bytes)"
+114,Version <*>.<*>.<*> Starting
+93,rpc.statd startup succeeded
+34,"CPU: L1 I cache: <*>, L1 D cache: <*>"
+35,CPU: L2 cache: <*>
+56,Intel machine check architecture supported.
+57,Intel machine check reporting enabled on CPU#<*>.
+33,CPU: Intel Pentium III (Coppermine) stepping <*>
+44,Enabling fast FPU save and restore... done.
+45,Enabling unmasked SIMD FPU exception support... done.
+28,Checking 'hlt' instruction... OK.
+86,POSIX conformance testing by UNIFIX
+73,NET: Registered protocol family <*>
+78,"PCI: PCI BIOS revision <*>.<*> entry at <*>, last bus=<*>"
+81,PCI: Using configuration type <*>
+72,mtrr: v<*>.<*> (<*>)
+7,ACPI: Subsystem revision <*>
+6,ACPI: Interpreter disabled.
+67,Linux Plug and Play Support v<*>.<*> (c) Adam Belay
+111,usbcore: registered new driver usbfs
+110,usbcore: registered new driver hub
+92,rpc.idmapd startup succeeded
+5,ACPI: ACPI tables contain no PCI IRQ routing entries
+77,PCI: Invalid ACPI-PCI IRQ routing table
+54,Initializing random number generator:  succeeded
+79,PCI: Probing PCI hardware
+80,PCI: Probing PCI hardware (bus <*>)
+109,Transparent bridge - <*>
+82,PCI: Using IRQ router PIIX/ICH [<*>/<*>] at <*>
+10,apm: BIOS version <*>.<*> Flags <*> (Driver version <*>)
+12,audit: initializing netlink socket (disabled)
+11,audit(<*>.<*>:<*>): initialized
+108,"Total HugeTLB memory allocated, <*>"
+105,Starting pcmcia:  succeeded
+115,VFS: Disk quotas dquot_<*>.<*>.<*>
+43,"Dquot-cache hash table entries: <*> (order <*>, <*> bytes)"
+98,SELinux:  Registering netfilter hooks
+53,Initializing Cryptographic API
+83,pci_hotplug: PCI Hot Plug PCI Core version: <*>.<*>
+60,isapnp: Scanning for PnP cards...
+59,isapnp: No Plug & Play device found
+87,Real Time Clock Driver v<*>.<*>
+66,Linux agpgart interface v<*>.<*> (c) Dave Jones
+49,hcid startup succeeded
+48,HCI daemon ver <*>.<*> started
+104,Setting network parameters:  succeeded
+94,sdpd startup succeeded
+95,sdpd v<*>.<*> started
+23,Bringing up loopback interface:  succeeded
+38,cupsd startup succeeded
+36,creating device node '/udev/<*>'
+1,*** info [mice.c(<*>)]:
+51,imps2: Auto-detected intellimouse PS/<*>
+102,session opened for user <*> by (uid=<*>)
+101,session closed for user <*>
+89,removing device node '/udev/<*>'
+8,ALERT exited abnormally with [1]
+63,kernel.core_uses_pid = <*>
+27,check pass; user unknown
+16,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=<*>
+29,connection from <*> (<*>) at <*>:<*>:<*>
+37,cupsd shutdown succeeded
+31,Couldn't authenticate user
+112,User unknown timed out after <*> seconds at <*>:<*>:<*> <*>
+88,Received SNMP packet(s) from <*>
+13,Authentication failed from <*> (<*>): Permission denied in replay cache code
+61,Kerberos authentication failed
+14,Authentication failed from <*> (<*>): Software caused connection abort
+103,session opened for user <*> by LOGIN(uid=<*>)
+91,ROOT LOGIN ON tty2
+15,authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=
+9,"ANONYMOUS FTP LOGIN FROM <*>,  (anonymous)"
+75,notify question section contains no SOA
+47,getpeername (ftpd): Transport endpoint is not connected
+116,warning: can't get client address: Connection reset by peer

@@ -1,0 +1,71 @@
+tid,template
+6,ExecuteRequest: request id: <*> api: <*> data?: <*> workflow?: no
+57,SaveToStorageImpl: New note created
+42,IsValidSignedProfile: Signature verification success
+8,Fetching Information for User : <*>
+58,SendHttpRequestSync: Post Request about to start
+60,SendHttpRequestSyncInternal: Calling endpoint <*>
+56,Received Response with status <*>
+28,Got empty response
+59,SendHttpRequestSync: Post Request complete
+10,GetAuthenticatedProfile : Failed to fetch ASNP
+67,URLSessionDataTask didReceiveData <*> bytes
+17,GetLatestNglProfile Status: Unhandled Error
+54,ProcessV2Profile: request id: <*> api: <*> call-status: <*> profile-status: <*> sequence: <*> workflow?: <*> spinner?: <*>
+29,HandleV2Response: Cannot handle undefined response (request <*> type <*> status <*> sequence <*>)
+55,ProcessV2Profile: Subsequent profile failure: existing profile status <*>
+37,ImsCachedAccessToken - Cached access token fetch status: <*>
+23,GetRefreshProfile: invoked with initial result: <*> & GetProfile type: <*>
+12,GetImsAccessToken: invoked clientId: <*> clientScope: <*> data?: <*> workflow?: <*>
+36,ImsAccessTokenInternal Error in fetching Access Token
+35,ImsAccessTokenInternal - returned with <*>
+33,ImsAccessToken Status: HTTP Request Timed Out
+51,ProcessImsResult: request id: <*> api: <*> status: <*> workflow?: <*> spinner?: <*>
+45,NotifyData: request id: <*> api: <*>
+13,GetImsAccessToken: request <*> recieved
+14,GetImsAccessToken: request <*> returned status <*>
+34,ImsAccessToken Status: Success
+27,GetUserPrincipal failed in GetUserProfile
+15,GetLatestNglProfile Status: Error Fetching Access Token : Invalid Device Token
+9,"ForceProfileRefresh: cause: 1, delay: <*>"
+2,DeleteUserPrincipal failed in RemoveUserProfile
+7,Failed to remove principal
+1,DeleteItemFromStorageImpl: Resource successfully deleted
+19,"GetOverrideStatusForLocalSignout Returning onLocalSignout as - <*> , mOnLocalSignout - <*> , AppLicensemode - <*>"
+21,GetProfile: request <*> recieved
+22,GetProfile: request <*> returned status <*>
+26,GetSecureProfile : ASNP and prefetched ASNP not found
+62,"SetASNP Setting onLocalSignout as it does have a valid value, before - <*> , now - <*>"
+16,GetLatestNglProfile Status: NGL Profile Unavailable
+30,HandleV2Response: Handle NUL response (request <*> type <*> status <*> sequence subsequent)
+31,HandleV2Response: No workflow with provisional response
+46,"NotifyWorkflowBeforeData: Ignore notifying a workflow since its a headless app, instead NotifyProfileData"
+4,DisableProfileRefresh: invoked
+52,ProcessV2Profile: handler succeeded (latest profile status <*>)
+50,PostLogFile: No Cached Access Token found with Status 503
+32,ImsAccessToken Status: Data Not Found : Principal
+49,PostLogFile: No Access Token found with Status 218
+0,-------- Initializing session logs --------
+25,GetRuntimeDetails: No operating configs found
+24,GetRuntimeDetails: Fallback to NAMED_USER_ONLINE!!
+3,"Deserialize: No Operating Config file, default init"
+65,"SetConfig: OS Name=<*>, OS Version=<*>"
+64,"SetConfig: NGLLibVersion=<*>, Environment=<*>, Runtimemode=<*>, NpdID="
+63,"SetConfig: ClientID=<*>, AppID=<*>, AppVersion=<*>"
+44,NglController: constructor invoked in <*> license mode
+38,InitializeProfileUpdates: invoked and running in headless mode
+68,ValidateAndGetCachedSP : Failed to fetch principal
+11,GetCachedNglProfile Status: Data Not Found : Principal
+69,ValidateAndGetPrefetchedSP : Failed to fetch principal
+20,GetPrefetchedNglProfile Status: Data Not Found : Principal
+39,InitializeProfileUpdates: Initial internal status = <*>
+43,LogCurrentUser: <*> UserID=<*>
+40,InitializeWorkflows: invoked
+61,SetAppRuntimeConfig: AppLocale=<*>
+41,InitialProfileTimer: app is licensed
+48,operator() : Blocking initial unauth call for unlicensed app (principal not found)
+18,GetLatestNglProfile Status: Unlicensed apps are denied to reach out to COPS if there is no user signed in
+53,ProcessV2Profile: Initial profile failure: licensed from cache (profile status <*>)
+66,StartRecurringAuthAndProfileChecks: invoked
+5,EnableProfileRefresh: invoked
+47,operator()

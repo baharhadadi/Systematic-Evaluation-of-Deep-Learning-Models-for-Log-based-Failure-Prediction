@@ -1,0 +1,859 @@
+digraph Automaton {
+0 [root=true,label="0",shape=circle];
+  0 -> 1 [label="90"]
+  1 [label="1",shape=circle];
+  1 -> 2 [label="106"]
+  1 -> 318 [label="37"]
+  1 -> 84 [label="8"]
+  2 [label="2",shape=circle];
+  2 -> 2 [label="65"]
+  2 -> 3 [label="64"]
+  3 [label="4",shape=circle];
+  3 -> 4 [label="68"]
+  3 -> 302 [label="101"]
+  4 [label="5",shape=circle];
+  4 -> 5 [label="22"]
+  5 [label="6",shape=circle];
+  5 -> 6 [label="21"]
+  6 [label="7",shape=circle];
+  6 -> 7 [label="20"]
+  7 [label="8",shape=circle];
+  7 -> 8 [label="21"]
+  8 [label="9",shape=circle];
+  8 -> 9 [label="20"]
+  9 [label="10",shape=circle];
+  9 -> 10 [label="20"]
+  10 [label="11",shape=circle];
+  10 -> 11 [label="2"]
+  11 [label="12",shape=circle];
+  11 -> 12 [label="3"]
+  12 [label="13",shape=circle];
+  12 -> 50 [label="118"]
+  13 [label="15",shape=circle];
+  13 -> 157 [label="58"]
+  13 -> 51 [label="65"]
+  13 -> 116 [label="41"]
+  14 [label="18",shape=circle];
+  14 -> 15 [label="42"]
+  15 [label="19",shape=circle];
+  15 -> 16 [label="4"]
+  15 -> 188 [label="58"]
+  16 [label="20",shape=circle];
+  16 -> 17 [label="117"]
+  17 [label="21",shape=circle];
+  17 -> 18 [label="24"]
+  18 [label="22",shape=circle];
+  18 -> 19 [label="58"]
+  19 [label="23",shape=circle];
+  19 -> 121 [label="62"]
+  20 [label="25",shape=circle];
+  20 -> 191 [label="52"]
+  21 [label="27",shape=circle];
+  21 -> 122 [label="32"]
+  22 [label="32",shape=circle];
+  22 -> 159 [label="70"]
+  23 [label="45",shape=circle];
+  23 -> 24 [label="93"]
+  24 [label="46",shape=circle];
+  24 -> 63 [label="34"]
+  25 [label="48",shape=circle];
+  25 -> 26 [label="56"]
+  26 [label="49",shape=circle];
+  26 -> 27 [label="57"]
+  27 [label="50",shape=circle];
+  27 -> 197 [label="33"]
+  28 [label="53",shape=circle];
+  28 -> 198 [label="28"]
+  29 [label="62",shape=circle];
+  29 -> 167 [label="92"]
+  29 -> 65 [label="111"]
+  29 -> 135 [label="105"]
+  30 [label="64",shape=circle];
+  30 -> 31 [label="92"]
+  30 -> 67 [label="5"]
+  31 [label="65",shape=circle];
+  31 -> 32 [label="5"]
+  32 [label="66",shape=circle];
+  32 -> 33 [label="77"]
+  33 [label="67",shape=circle];
+  33 -> 68 [label="54"]
+  34 [label="69",shape=circle];
+  34 -> 200 [label="80"]
+  35 [label="77",shape=circle];
+  35 -> 36 [label="115"]
+  36 [label="78",shape=circle];
+  36 -> 37 [label="43"]
+  37 [label="79",shape=circle];
+  37 -> 38 [label="98"]
+  38 [label="80",shape=circle];
+  38 -> 39 [label="53"]
+  39 [label="81",shape=circle];
+  39 -> 170 [label="83"]
+  40 [label="84",shape=circle];
+  40 -> 173 [label="87"]
+  41 [label="87",shape=circle];
+  41 -> 42 [label="48"]
+  42 [label="88",shape=circle];
+  42 -> 242 [label="104"]
+  43 [label="90",shape=circle];
+  43 -> 243 [label="95"]
+  44 [label="92",shape=circle];
+  44 -> 45 [label="73"]
+  45 [label="93",shape=circle];
+  45 -> 45 [label="73"]
+  45 -> 46 [label="73"]
+  46 [label="97",shape=circle];
+  46 -> 47 [label="38"]
+  47 [label="98",shape=circle];
+  47 -> 252 [label="36"]
+  48 [label="100",shape=circle];
+  48 -> 259 [label="51"]
+  49 [label="153",shape=doublecircle];
+  50 [label="164",shape=circle];
+  50 -> 115 [label="65"]
+  50 -> 13 [label="76"]
+  51 [label="166",shape=circle];
+  51 -> 52 [label="41"]
+  52 [label="167",shape=circle];
+  52 -> 158 [label="74"]
+  53 [label="174",shape=circle];
+  53 -> 190 [label="85"]
+  53 -> 121 [label="62"]
+  53 -> 325 [label="58"]
+  54 [label="179",shape=circle];
+  54 -> 263 [label="85"]
+  54 -> 264 [label="40"]
+  54 -> 228 [label="114"]
+  55 [label="185",shape=circle];
+  55 -> 56 [label="85"]
+  55 -> 192 [label="97"]
+  56 [label="186",shape=circle];
+  56 -> 192 [label="97"]
+  57 [label="188",shape=circle];
+  57 -> 58 [label="107"]
+  58 [label="189",shape=circle];
+  58 -> 231 [label="46"]
+  58 -> 59 [label="114"]
+  59 [label="190",shape=circle];
+  59 -> 60 [label="46"]
+  60 [label="191",shape=circle];
+  60 -> 231 [label="93"]
+  61 [label="193",shape=circle];
+  61 -> 129 [label="26"]
+  62 [label="195",shape=circle];
+  62 -> 196 [label="55"]
+  63 [label="198",shape=circle];
+  63 -> 25 [label="35"]
+  64 [label="204",shape=circle];
+  64 -> 28 [label="45"]
+  65 [label="215",shape=circle];
+  65 -> 66 [label="54"]
+  65 -> 30 [label="110"]
+  66 [label="216",shape=circle];
+  66 -> 30 [label="110"]
+  67 [label="218",shape=circle];
+  67 -> 68 [label="77"]
+  68 [label="219",shape=circle];
+  68 -> 34 [label="79"]
+  69 [label="222",shape=circle];
+  69 -> 201 [label="109"]
+  70 [label="224",shape=circle];
+  70 -> 168 [label="10"]
+  71 [label="229",shape=circle];
+  71 -> 205 [label="43"]
+  71 -> 169 [label="54"]
+  72 [label="231",shape=circle];
+  72 -> 248 [label="53"]
+  72 -> 339 [label="105"]
+  73 [label="235",shape=circle];
+  73 -> 74 [label="59"]
+  74 [label="236",shape=circle];
+  74 -> 75 [label="48"]
+  75 [label="237",shape=circle];
+  75 -> 76 [label="49"]
+  76 [label="238",shape=circle];
+  76 -> 77 [label="104"]
+  77 [label="239",shape=circle];
+  77 -> 78 [label="87"]
+  78 [label="240",shape=circle];
+  78 -> 79 [label="94"]
+  79 [label="241",shape=circle];
+  79 -> 80 [label="95"]
+  80 [label="242",shape=circle];
+  80 -> 81 [label="23"]
+  81 [label="243",shape=circle];
+  81 -> 82 [label="66"]
+  82 [label="244",shape=circle];
+  82 -> 82 [label="73"]
+  82 -> 290 [label="48"]
+  82 -> 143 [label="73"]
+  83 [label="446",shape=circle];
+  83 -> 154 [label="31"]
+  84 [label="537",shape=circle];
+  84 -> 114 [label="101"]
+  84 -> 84 [label="75 \n 88 \n 112 \n 29"]
+  84 -> 110 [label="9"]
+  84 -> 349 [label="47"]
+  84 -> 317 [label="116"]
+  84 -> 215 [label="16"]
+  84 -> 103 [label="14"]
+  84 -> 153 [label="102"]
+  84 -> 214 [label="16 \n 27"]
+  84 -> 212 [label="31"]
+  84 -> 154 [label="16"]
+  84 -> 293 [label="1"]
+  84 -> 219 [label="16"]
+  84 -> 296 [label="89"]
+  85 [label="680",shape=circle];
+  85 -> 1 [label="101"]
+  85 -> 109 [label="101"]
+  86 [label="1139",shape=circle];
+  86 -> 87 [label="61"]
+  87 [label="1140",shape=circle];
+  87 -> 88 [label="13"]
+  88 [label="1141",shape=circle];
+  88 -> 89 [label="61"]
+  89 [label="1142",shape=circle];
+  89 -> 90 [label="13"]
+  90 [label="1143",shape=circle];
+  90 -> 91 [label="61"]
+  91 [label="1144",shape=circle];
+  91 -> 92 [label="13"]
+  92 [label="1145",shape=circle];
+  92 -> 93 [label="61"]
+  93 [label="1146",shape=circle];
+  93 -> 94 [label="13"]
+  94 [label="1147",shape=circle];
+  94 -> 95 [label="61"]
+  95 [label="1148",shape=circle];
+  95 -> 96 [label="13"]
+  96 [label="1149",shape=circle];
+  96 -> 97 [label="61"]
+  97 [label="1150",shape=circle];
+  97 -> 98 [label="13"]
+  98 [label="1151",shape=circle];
+  98 -> 99 [label="13"]
+  99 [label="1152",shape=circle];
+  99 -> 100 [label="14"]
+  100 [label="1153",shape=circle];
+  100 -> 101 [label="61"]
+  101 [label="1154",shape=circle];
+  101 -> 102 [label="61"]
+  102 [label="1155",shape=circle];
+  102 -> 84 [label="61"]
+  103 [label="1157",shape=circle];
+  103 -> 104 [label="14"]
+  103 -> 84 [label="61"]
+  104 [label="1174",shape=circle];
+  104 -> 103 [label="14"]
+  104 -> 104 [label="61"]
+  104 -> 109 [label="102"]
+  105 [label="1481",shape=circle];
+  105 -> 106 [label="51"]
+  106 [label="1482",shape=circle];
+  106 -> 107 [label="103"]
+  107 [label="1483",shape=circle];
+  107 -> 108 [label="91"]
+  108 [label="1484",shape=circle];
+  108 -> 252 [label="101"]
+  109 [label="1812",shape=circle];
+  109 -> 109 [label="16"]
+  109 -> 252 [label="16"]
+  109 -> 105 [label="1"]
+  109 -> 84 [label="29"]
+  109 -> 153 [label="101 \n 102"]
+  109 -> 155 [label="16"]
+  109 -> 154 [label="27"]
+  110 [label="2235",shape=circle];
+  110 -> 109 [label="9"]
+  111 [label="2311",shape=circle];
+  111 -> 84 [label="47"]
+  111 -> 112 [label="116"]
+  111 -> 316 [label="29"]
+  112 [label="2312",shape=circle];
+  112 -> 113 [label="47"]
+  112 -> 84 [label="29"]
+  113 [label="2313",shape=circle];
+  113 -> 348 [label="116"]
+  114 [label="2392",shape=doublecircle];
+  115 [label="2393",shape=circle];
+  115 -> 13 [label="76"]
+  116 [label="2395",shape=circle];
+  116 -> 117 [label="74"]
+  117 [label="2396",shape=circle];
+  117 -> 14 [label="50"]
+  117 -> 158 [label="58"]
+  118 [label="2398",shape=circle];
+  118 -> 119 [label="42"]
+  119 [label="2399",shape=circle];
+  119 -> 120 [label="4"]
+  120 [label="2400",shape=circle];
+  120 -> 189 [label="117"]
+  121 [label="2403",shape=circle];
+  121 -> 20 [label="69"]
+  122 [label="2406",shape=circle];
+  122 -> 123 [label="85"]
+  122 -> 54 [label="84"]
+  123 [label="2407",shape=circle];
+  123 -> 124 [label="84"]
+  124 [label="2408",shape=circle];
+  124 -> 125 [label="40"]
+  125 [label="2409",shape=circle];
+  125 -> 126 [label="114"]
+  126 [label="2410",shape=circle];
+  126 -> 127 [label="113"]
+  127 [label="2411",shape=circle];
+  127 -> 128 [label="93"]
+  128 [label="2412",shape=circle];
+  128 -> 22 [label="30"]
+  129 [label="2422",shape=circle];
+  129 -> 130 [label="92"]
+  129 -> 62 [label="39"]
+  130 [label="2423",shape=circle];
+  130 -> 62 [label="39"]
+  131 [label="2435",shape=circle];
+  131 -> 166 [label="86"]
+  132 [label="2438",shape=circle];
+  132 -> 133 [label="81"]
+  133 [label="2439",shape=circle];
+  133 -> 134 [label="72"]
+  134 [label="2440",shape=circle];
+  134 -> 237 [label="7"]
+  135 [label="2444",shape=circle];
+  135 -> 65 [label="111"]
+  136 [label="2454",shape=circle];
+  136 -> 137 [label="63"]
+  136 -> 203 [label="11"]
+  137 [label="2455",shape=circle];
+  137 -> 138 [label="48"]
+  138 [label="2456",shape=circle];
+  138 -> 139 [label="49"]
+  139 [label="2457",shape=circle];
+  139 -> 140 [label="11"]
+  140 [label="2458",shape=circle];
+  140 -> 141 [label="104"]
+  141 [label="2459",shape=circle];
+  141 -> 291 [label="94"]
+  142 [label="2462",shape=circle];
+  142 -> 281 [label="23"]
+  143 [label="2477",shape=circle];
+  143 -> 154 [label="38"]
+  144 [label="2482",shape=circle];
+  144 -> 295 [label="36"]
+  145 [label="2515",shape=circle];
+  145 -> 153 [label="89"]
+  146 [label="2528",shape=circle];
+  146 -> 252 [label="101"]
+  147 [label="2622",shape=circle];
+  147 -> 148 [label="1"]
+  148 [label="2623",shape=circle];
+  148 -> 149 [label="51"]
+  149 [label="2624",shape=circle];
+  149 -> 107 [label="103"]
+  150 [label="2636",shape=circle];
+  150 -> 151 [label="91"]
+  151 [label="2637",shape=circle];
+  151 -> 152 [label="89"]
+  152 [label="2638",shape=circle];
+  152 -> 153 [label="101"]
+  153 [label="3179",shape=circle];
+  153 -> 153 [label="36"]
+  153 -> 301 [label="101"]
+  153 -> 215 [label="102"]
+  153 -> 154 [label="16"]
+  153 -> 145 [label="36"]
+  153 -> 348 [label="116"]
+  153 -> 221 [label="101"]
+  153 -> 109 [label="16 \n 27"]
+  153 -> 252 [label="89"]
+  153 -> 257 [label="101"]
+  153 -> 322 [label="89"]
+  153 -> 84 [label="101 \n 29"]
+  154 [label="3184",shape=circle];
+  154 -> 154 [label="88 \n 36"]
+  154 -> 293 [label="1"]
+  154 -> 109 [label="16"]
+  154 -> 86 [label="13"]
+  154 -> 49 [label="101"]
+  154 -> 84 [label="116 \n 16 \n 29"]
+  154 -> 214 [label="27"]
+  154 -> 153 [label="16"]
+  154 -> 83 [label="31"]
+  154 -> 220 [label="102"]
+  155 [label="4012",shape=circle];
+  155 -> 154 [label="16 \n 27"]
+  155 -> 348 [label="116"]
+  155 -> 85 [label="102"]
+  155 -> 252 [label="16"]
+  155 -> 84 [label="29"]
+  156 [label="4043",shape=circle];
+  156 -> 220 [label="16"]
+  157 [label="4241",shape=circle];
+  157 -> 52 [label="41"]
+  158 [label="4243",shape=circle];
+  158 -> 158 [label="58"]
+  158 -> 227 [label="85"]
+  158 -> 118 [label="50"]
+  159 [label="4257",shape=circle];
+  159 -> 160 [label="85"]
+  159 -> 161 [label="25"]
+  160 [label="4258",shape=circle];
+  160 -> 161 [label="25"]
+  161 [label="4259",shape=circle];
+  161 -> 55 [label="96"]
+  161 -> 266 [label="114"]
+  162 [label="4269",shape=circle];
+  162 -> 23 [label="114"]
+  162 -> 232 [label="92"]
+  162 -> 63 [label="34"]
+  163 [label="4275",shape=circle];
+  163 -> 164 [label="44"]
+  164 [label="4276",shape=circle];
+  164 -> 165 [label="93"]
+  165 [label="4277",shape=circle];
+  165 -> 28 [label="45"]
+  166 [label="4280",shape=circle];
+  166 -> 199 [label="73"]
+  167 [label="4288",shape=circle];
+  167 -> 65 [label="111"]
+  168 [label="4297",shape=circle];
+  168 -> 202 [label="92"]
+  168 -> 136 [label="12"]
+  169 [label="4302",shape=circle];
+  169 -> 205 [label="43"]
+  170 [label="4306",shape=circle];
+  170 -> 171 [label="105"]
+  170 -> 206 [label="60"]
+  171 [label="4307",shape=circle];
+  171 -> 172 [label="60"]
+  172 [label="4308",shape=circle];
+  172 -> 40 [label="59"]
+  173 [label="4310",shape=circle];
+  173 -> 207 [label="66"]
+  174 [label="4312",shape=circle];
+  174 -> 175 [label="48"]
+  175 [label="4313",shape=circle];
+  175 -> 176 [label="49"]
+  176 [label="4314",shape=circle];
+  176 -> 177 [label="23"]
+  177 [label="4315",shape=circle];
+  177 -> 178 [label="94"]
+  178 [label="4316",shape=circle];
+  178 -> 82 [label="95"]
+  179 [label="4630",shape=circle];
+  179 -> 318 [label="37"]
+  179 -> 218 [label="8"]
+  180 [label="4663",shape=circle];
+  180 -> 181 [label="31"]
+  180 -> 294 [label="102"]
+  180 -> 213 [label="103"]
+  181 [label="4664",shape=circle];
+  181 -> 182 [label="103"]
+  182 [label="4665",shape=circle];
+  182 -> 183 [label="91"]
+  183 [label="4666",shape=circle];
+  183 -> 184 [label="101"]
+  184 [label="4667",shape=circle];
+  184 -> 185 [label="89"]
+  185 [label="4668",shape=circle];
+  185 -> 153 [label="102"]
+  185 -> 185 [label="89"]
+  185 -> 211 [label="89"]
+  186 [label="4680",shape=circle];
+  186 -> 187 [label="101"]
+  187 [label="4681",shape=doublecircle];
+  188 [label="4682",shape=circle];
+  188 -> 120 [label="4"]
+  189 [label="4684",shape=circle];
+  189 -> 53 [label="24"]
+  190 [label="4686",shape=circle];
+  190 -> 121 [label="62"]
+  191 [label="4689",shape=circle];
+  191 -> 122 [label="32"]
+  191 -> 21 [label="85"]
+  192 [label="4698",shape=circle];
+  192 -> 193 [label="114"]
+  192 -> 57 [label="99"]
+  193 [label="4699",shape=circle];
+  193 -> 194 [label="99"]
+  194 [label="4700",shape=circle];
+  194 -> 195 [label="93"]
+  195 [label="4701",shape=circle];
+  195 -> 58 [label="107"]
+  196 [label="4707",shape=circle];
+  196 -> 162 [label="71"]
+  197 [label="4713",shape=circle];
+  197 -> 197 [label="92"]
+  197 -> 64 [label="44"]
+  197 -> 163 [label="114"]
+  198 [label="4716",shape=circle];
+  198 -> 131 [label="54"]
+  198 -> 166 [label="86"]
+  199 [label="4718",shape=circle];
+  199 -> 233 [label="54"]
+  199 -> 331 [label="92"]
+  199 -> 132 [label="78"]
+  200 [label="4730",shape=circle];
+  200 -> 239 [label="48"]
+  200 -> 201 [label="109"]
+  200 -> 69 [label="105"]
+  200 -> 271 [label="54"]
+  201 [label="4731",shape=circle];
+  201 -> 70 [label="82"]
+  201 -> 332 [label="104"]
+  202 [label="4734",shape=circle];
+  202 -> 136 [label="12"]
+  203 [label="4736",shape=circle];
+  203 -> 338 [label="108"]
+  204 [label="4738",shape=circle];
+  204 -> 71 [label="115"]
+  205 [label="4740",shape=circle];
+  205 -> 72 [label="98"]
+  206 [label="4744",shape=circle];
+  206 -> 73 [label="63"]
+  206 -> 40 [label="59"]
+  207 [label="4747",shape=circle];
+  207 -> 208 [label="105"]
+  207 -> 207 [label="73"]
+  207 -> 249 [label="73"]
+  207 -> 174 [label="104"]
+  207 -> 342 [label="48"]
+  207 -> 41 [label="49"]
+  208 [label="4748",shape=circle];
+  208 -> 342 [label="48"]
+  209 [label="4757",shape=circle];
+  209 -> 210 [label="38"]
+  210 [label="4758",shape=circle];
+  210 -> 252 [label="36"]
+  211 [label="4805",shape=circle];
+  211 -> 153 [label="36"]
+  211 -> 186 [label="37"]
+  211 -> 297 [label="36"]
+  212 [label="4814",shape=circle];
+  212 -> 154 [label="31"]
+  213 [label="4818",shape=circle];
+  213 -> 180 [label="31"]
+  213 -> 153 [label="91"]
+  214 [label="5228",shape=circle];
+  214 -> 83 [label="15"]
+  214 -> 153 [label="102"]
+  214 -> 214 [label="16"]
+  214 -> 84 [label="16"]
+  214 -> 252 [label="27 \n 29"]
+  215 [label="5279",shape=circle];
+  215 -> 216 [label="102"]
+  215 -> 219 [label="101"]
+  215 -> 109 [label="101"]
+  215 -> 298 [label="27"]
+  215 -> 257 [label="101"]
+  215 -> 153 [label="16"]
+  216 [label="5280",shape=circle];
+  216 -> 217 [label="27"]
+  216 -> 1 [label="101"]
+  216 -> 109 [label="101 \n 102"]
+  217 [label="5281",shape=circle];
+  217 -> 153 [label="16"]
+  218 [label="5538",shape=circle];
+  218 -> 109 [label="27 \n 16"]
+  218 -> 146 [label="102"]
+  219 [label="5553",shape=circle];
+  219 -> 154 [label="16"]
+  219 -> 109 [label="16"]
+  219 -> 298 [label="27"]
+  219 -> 147 [label="31"]
+  219 -> 215 [label="102"]
+  220 [label="5870",shape=circle];
+  220 -> 215 [label="101 \n 102"]
+  220 -> 109 [label="16 \n 101"]
+  220 -> 179 [label="101"]
+  220 -> 156 [label="16"]
+  221 [label="5876",shape=circle];
+  221 -> 109 [label="101"]
+  221 -> 252 [label="16 \n 101"]
+  221 -> 153 [label="16"]
+  221 -> 214 [label="27"]
+  221 -> 215 [label="102"]
+  222 [label="5889",shape=circle];
+  222 -> 223 [label="1"]
+  223 [label="5890",shape=circle];
+  223 -> 224 [label="51"]
+  224 [label="5891",shape=circle];
+  224 -> 225 [label="37"]
+  225 [label="5892",shape=circle];
+  225 -> 226 [label="101"]
+  226 [label="5893",shape=doublecircle];
+  227 [label="5894",shape=circle];
+  227 -> 118 [label="50"]
+  228 [label="5905",shape=circle];
+  228 -> 229 [label="40"]
+  229 [label="5906",shape=circle];
+  229 -> 230 [label="93"]
+  230 [label="5907",shape=circle];
+  230 -> 265 [label="113"]
+  231 [label="5916",shape=circle];
+  231 -> 61 [label="100"]
+  231 -> 328 [label="114"]
+  232 [label="5922",shape=circle];
+  232 -> 63 [label="34"]
+  233 [label="5933",shape=circle];
+  233 -> 234 [label="78"]
+  234 [label="5934",shape=circle];
+  234 -> 235 [label="81"]
+  235 [label="5935",shape=circle];
+  235 -> 236 [label="105"]
+  236 [label="5936",shape=circle];
+  236 -> 134 [label="72"]
+  237 [label="5938",shape=circle];
+  237 -> 238 [label="6"]
+  238 [label="5939",shape=circle];
+  238 -> 29 [label="67"]
+  239 [label="5947",shape=circle];
+  239 -> 240 [label="49"]
+  240 [label="5948",shape=circle];
+  240 -> 241 [label="109"]
+  241 [label="5949",shape=circle];
+  241 -> 242 [label="63"]
+  242 [label="5950",shape=circle];
+  242 -> 43 [label="94"]
+  243 [label="5952",shape=circle];
+  243 -> 244 [label="82"]
+  243 -> 243 [label="73"]
+  243 -> 209 [label="73"]
+  243 -> 343 [label="38"]
+  243 -> 44 [label="23"]
+  244 [label="5953",shape=circle];
+  244 -> 245 [label="104"]
+  245 [label="5954",shape=circle];
+  245 -> 246 [label="10"]
+  246 [label="5955",shape=circle];
+  246 -> 247 [label="23"]
+  247 [label="5956",shape=circle];
+  247 -> 136 [label="12"]
+  248 [label="5963",shape=circle];
+  248 -> 170 [label="83"]
+  249 [label="5973",shape=circle];
+  249 -> 250 [label="38"]
+  250 [label="5974",shape=circle];
+  250 -> 252 [label="36"]
+  251 [label="5981",shape=circle];
+  251 -> 253 [label="36"]
+  251 -> 296 [label="89"]
+  252 [label="5991",shape=circle];
+  252 -> 84 [label="16 \n 27 \n 29"]
+  252 -> 261 [label="37"]
+  252 -> 252 [label="89 \n 16"]
+  252 -> 150 [label="103"]
+  252 -> 253 [label="36"]
+  252 -> 153 [label="102"]
+  252 -> 258 [label="16"]
+  252 -> 222 [label="89"]
+  252 -> 321 [label="101"]
+  252 -> 48 [label="1"]
+  253 [label="6012",shape=circle];
+  253 -> 220 [label="101"]
+  253 -> 153 [label="89"]
+  253 -> 185 [label="36"]
+  253 -> 252 [label="36"]
+  254 [label="6046",shape=circle];
+  254 -> 255 [label="38"]
+  255 [label="6047",shape=circle];
+  255 -> 256 [label="101"]
+  256 [label="6048",shape=doublecircle];
+  257 [label="6055",shape=circle];
+  257 -> 299 [label="8"]
+  257 -> 254 [label="37"]
+  258 [label="6336",shape=circle];
+  258 -> 109 [label="16 \n 29"]
+  258 -> 155 [label="27"]
+  258 -> 153 [label="102"]
+  259 [label="7381",shape=circle];
+  259 -> 260 [label="89"]
+  259 -> 294 [label="102"]
+  260 [label="7382",shape=circle];
+  260 -> 153 [label="89"]
+  261 [label="7398",shape=circle];
+  261 -> 262 [label="101"]
+  262 [label="7399",shape=doublecircle];
+  263 [label="7400",shape=circle];
+  263 -> 264 [label="40"]
+  264 [label="7401",shape=circle];
+  264 -> 265 [label="113"]
+  265 [label="7402",shape=circle];
+  265 -> 22 [label="30"]
+  266 [label="7406",shape=circle];
+  266 -> 267 [label="96"]
+  267 [label="7407",shape=circle];
+  267 -> 268 [label="93"]
+  268 [label="7408",shape=circle];
+  268 -> 269 [label="97"]
+  269 [label="7409",shape=circle];
+  269 -> 270 [label="99"]
+  270 [label="7410",shape=circle];
+  270 -> 58 [label="107"]
+  271 [label="7441",shape=circle];
+  271 -> 272 [label="109"]
+  272 [label="7442",shape=circle];
+  272 -> 273 [label="82"]
+  273 [label="7443",shape=circle];
+  273 -> 274 [label="10"]
+  274 [label="7444",shape=circle];
+  274 -> 275 [label="12"]
+  275 [label="7445",shape=circle];
+  275 -> 276 [label="63"]
+  276 [label="7446",shape=circle];
+  276 -> 277 [label="11"]
+  277 [label="7447",shape=circle];
+  277 -> 278 [label="104"]
+  278 [label="7448",shape=circle];
+  278 -> 279 [label="108"]
+  279 [label="7449",shape=circle];
+  279 -> 280 [label="105"]
+  280 [label="7450",shape=circle];
+  280 -> 281 [label="23"]
+  281 [label="7451",shape=circle];
+  281 -> 282 [label="115"]
+  282 [label="7452",shape=circle];
+  282 -> 283 [label="43"]
+  283 [label="7453",shape=circle];
+  283 -> 284 [label="98"]
+  284 [label="7454",shape=circle];
+  284 -> 285 [label="53"]
+  285 [label="7455",shape=circle];
+  285 -> 286 [label="83"]
+  286 [label="7456",shape=circle];
+  286 -> 287 [label="60"]
+  287 [label="7457",shape=circle];
+  287 -> 288 [label="59"]
+  288 [label="7458",shape=circle];
+  288 -> 289 [label="87"]
+  289 [label="7459",shape=circle];
+  289 -> 82 [label="66"]
+  290 [label="7461",shape=circle];
+  290 -> 141 [label="49"]
+  291 [label="7463",shape=circle];
+  291 -> 292 [label="95"]
+  292 [label="7464",shape=circle];
+  292 -> 142 [label="108"]
+  292 -> 82 [label="73"]
+  293 [label="7472",shape=circle];
+  293 -> 180 [label="51"]
+  294 [label="7474",shape=circle];
+  294 -> 144 [label="101"]
+  295 [label="7476",shape=circle];
+  295 -> 251 [label="36"]
+  296 [label="7478",shape=circle];
+  296 -> 253 [label="89"]
+  297 [label="7518",shape=circle];
+  297 -> 84 [label="36"]
+  298 [label="7528",shape=circle];
+  298 -> 109 [label="16"]
+  299 [label="7542",shape=circle];
+  299 -> 300 [label="102"]
+  300 [label="7543",shape=circle];
+  300 -> 154 [label="101"]
+  301 [label="7594",shape=doublecircle];
+  302 [label="7595",shape=circle];
+  302 -> 303 [label="89"]
+  303 [label="7596",shape=circle];
+  303 -> 304 [label="89"]
+  304 [label="7597",shape=circle];
+  304 -> 305 [label="36"]
+  305 [label="7598",shape=circle];
+  305 -> 306 [label="36"]
+  306 [label="7599",shape=circle];
+  306 -> 307 [label="89"]
+  307 [label="7600",shape=circle];
+  307 -> 308 [label="89"]
+  308 [label="7601",shape=circle];
+  308 -> 309 [label="36"]
+  309 [label="7602",shape=circle];
+  309 -> 310 [label="36"]
+  310 [label="7603",shape=circle];
+  310 -> 311 [label="101"]
+  311 [label="7604",shape=circle];
+  311 -> 312 [label="89"]
+  312 [label="7605",shape=circle];
+  312 -> 313 [label="89"]
+  313 [label="7606",shape=circle];
+  313 -> 295 [label="36"]
+  314 [label="7907",shape=circle];
+  314 -> 348 [label="47"]
+  314 -> 315 [label="116"]
+  315 [label="7908",shape=circle];
+  315 -> 316 [label="29"]
+  316 [label="7909",shape=circle];
+  316 -> 316 [label="16 \n 112 \n 29"]
+  316 -> 348 [label="116"]
+  316 -> 347 [label="27"]
+  316 -> 346 [label="16"]
+  317 [label="7934",shape=circle];
+  317 -> 109 [label="16"]
+  317 -> 314 [label="47"]
+  318 [label="8243",shape=circle];
+  318 -> 319 [label="38"]
+  319 [label="8244",shape=circle];
+  319 -> 320 [label="101"]
+  320 [label="8245",shape=doublecircle];
+  321 [label="9060",shape=circle];
+  321 -> 252 [label="36"]
+  322 [label="9065",shape=circle];
+  322 -> 323 [label="89"]
+  323 [label="9066",shape=circle];
+  323 -> 324 [label="37"]
+  324 [label="9067",shape=circle];
+  324 -> 84 [label="89"]
+  325 [label="9078",shape=circle];
+  325 -> 326 [label="69"]
+  326 [label="9079",shape=circle];
+  326 -> 327 [label="52"]
+  327 [label="9080",shape=circle];
+  327 -> 191 [label="85"]
+  328 [label="9094",shape=circle];
+  328 -> 329 [label="100"]
+  329 [label="9095",shape=circle];
+  329 -> 330 [label="93"]
+  330 [label="9096",shape=circle];
+  330 -> 129 [label="26"]
+  331 [label="9111",shape=circle];
+  331 -> 132 [label="78"]
+  332 [label="9125",shape=circle];
+  332 -> 333 [label="54"]
+  333 [label="9126",shape=circle];
+  333 -> 334 [label="82"]
+  334 [label="9127",shape=circle];
+  334 -> 335 [label="23"]
+  335 [label="9128",shape=circle];
+  335 -> 336 [label="10"]
+  336 [label="9129",shape=circle];
+  336 -> 337 [label="11"]
+  337 [label="9130",shape=circle];
+  337 -> 338 [label="108"]
+  338 [label="9131",shape=circle];
+  338 -> 35 [label="105"]
+  338 -> 204 [label="54"]
+  338 -> 71 [label="115"]
+  339 [label="9135",shape=circle];
+  339 -> 340 [label="53"]
+  340 [label="9136",shape=circle];
+  340 -> 341 [label="83"]
+  341 [label="9137",shape=circle];
+  341 -> 206 [label="60"]
+  342 [label="9142",shape=circle];
+  342 -> 242 [label="49"]
+  343 [label="9150",shape=circle];
+  343 -> 344 [label="36"]
+  344 [label="9151",shape=circle];
+  344 -> 345 [label="73"]
+  345 [label="9152",shape=circle];
+  345 -> 48 [label="1"]
+  346 [label="9661",shape=circle];
+  346 -> 316 [label="16 \n 27"]
+  347 [label="9770",shape=circle];
+  347 -> 346 [label="16 \n 27"]
+  347 -> 316 [label="16"]
+  348 [label="9813",shape=circle];
+  348 -> 84 [label="47"]
+  349 [label="9915",shape=circle];
+  349 -> 349 [label="116"]
+  349 -> 111 [label="47"]
+} 
