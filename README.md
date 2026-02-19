@@ -1,6 +1,26 @@
 # Systematic-Evaluation-of-Deep-Learning-Models-for-Failure-Prediction
-This repository contains the replication package for the paper titled "Systematic Evaluation of Deep Learning Models for Failure Prediction”
 
+This repository contains the **replication package** for the paper:
+
+**"Systematic Evaluation of Deep Learning Models for Log-based Failure Prediction"**
+
+If you use this replication package, please cite:
+
+```bibtex
+@article{Hadadi_2024,
+   title={Systematic Evaluation of Deep Learning Models for Log-based Failure Prediction},
+   volume={29},
+   ISSN={1573-7616},
+   url={http://dx.doi.org/10.1007/s10664-024-10501-4},
+   DOI={10.1007/s10664-024-10501-4},
+   number={5},
+   journal={Empirical Software Engineering},
+   publisher={Springer Science and Business Media LLC},
+   author={Hadadi, Fatemeh and Dawes, Joshua H. and Shin, Donghwan and Bianculli, Domenico and Briand, Lionel},
+   year={2024},
+   month=jun
+}
+```
 ## Authors
 - Fatemeh Hadadi (donghwan.shin@uni.lu)
 - Joshua H. Dawes (joshua.dawes@uni.lu)
@@ -19,6 +39,14 @@ Please initialize Python's virtual environment and install requirements:
  (venv) pip install --no-deps --no-cache-dir --force-reinstall exrex
  (venv) pip install -r Failure\ Prediction\ Models/requirements.txt
 ```
+
+- Dataset Availability
+
+Due to GitHub size limitations, the datasets used in this study are hosted on Figshare and can be downloaded from:
+
+https://doi.org/10.6084/m9.figshare.22219111
+
+After downloading, place the datasets in the appropriate local dataset directory as described below.
 
 ## Running Synthentic Data Generation
 Run the Synthetic Data Generator with any of the three behavioral models:
